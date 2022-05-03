@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:together_refacotry/src/bindings/app_binding.dart';
 import 'package:together_refacotry/src/bindings/init_binding.dart';
 import 'package:together_refacotry/src/components/splash_screen.dart';
-import 'package:together_refacotry/src/controllers/auth_controller.dart';
 import 'package:together_refacotry/src/pages/app.dart';
 import 'package:together_refacotry/src/pages/login_page.dart';
 import 'package:together_refacotry/src/pages/sign_up_page.dart';
