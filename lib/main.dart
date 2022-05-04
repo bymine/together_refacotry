@@ -8,6 +8,7 @@ import 'package:together_refacotry/src/controllers/auth_controller.dart';
 import 'package:together_refacotry/src/pages/app.dart';
 import 'package:together_refacotry/src/pages/login_page.dart';
 import 'package:together_refacotry/src/pages/sign_up_page.dart';
+import 'package:together_refacotry/src/pages/views/add_project_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/login', page: () => const LoginPage()),
         GetPage(name: '/signUp', page: () => const SignUpPage()),
         GetPage(name: '/app', page: () => const App(), binding: AppBinding()),
+        GetPage(name: '/addProject', page: () => const AddProjectPage())
       ],
     );
   }
